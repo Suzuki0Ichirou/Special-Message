@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Happy Mother's Day!</title>
+<style>
+    body {
+        background-color: black;
+        text-align: center;
+        font-size: 40px;
+        color: white;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    }
+
+    .glowing-text {
+        font-size: 100px;
+        color: white;
+        text-align: center;
+        font-family: 'Arial Black', Gadget, sans-serif;
+        text-shadow: 0 0 10px white;
+    }
+
+    .heart {
+        font-size: 200px; /* Larger heart size */
+        color: red;
+        animation: heartbeat 1s infinite;
+    }
+
+    @keyframes heartbeat {
+        0% {
+            transform: scale(1);
+        }
+        50% {
+            transform: scale(1.2);
+        }
+        100% {
+            transform: scale(1);
+        }
+    }
+</style>
+</head>
+<body>
+    <h1 class="glowing-text">Happy Mother's Day!</h1>
+    <div class="heart">&hearts;</div>
+</body>
+</html>
